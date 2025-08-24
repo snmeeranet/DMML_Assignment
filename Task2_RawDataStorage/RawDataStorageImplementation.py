@@ -32,6 +32,6 @@ def store_in_local_datalake(source: str, dataset_name: str, file_name: str):
     print(f"✅ Stored {file_name} into {dst_file}")
 
 # Example usage:
-store_in_local_datalake("kaggle", "churn_modelling", "churn_modelling.csv")
-store_in_local_datalake("huggingface", "telco_customer_churn", "WA_Fn-UseC_-Telco-Customer-Churn.csv")
+store_in_local_datalake("huggingface", "churn_modelling", "churn_modelling.csv")
+store_in_local_datalake("kaggle", "telco_customer_churn", "WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
