@@ -33,3 +33,6 @@
 2025-08-24 17:37:11,647 - INFO - SUCCESS - Ingested churn_modelling into raw_data\churn_modelling\churn_modelling_20250824_173711.csv with 1409 rows.
 2025-08-24 17:37:11,767 - INFO - SUCCESS - Ingested telco_churn into raw_data\telco_churn\telco_churn_20250824_173711.csv with 7043 rows.
 2025-08-24 17:37:13,664 - INFO - API ingestion successful. File saved: raw_data\api_data_20250824_173713.csv
+2025-08-24 17:50:27,209 - INFO - SUCCESS - Ingested churn_modelling into raw_data\churn_modelling\churn_modelling_20250824_175027.csv with 1409 rows.
+2025-08-24 17:50:27,327 - INFO - SUCCESS - Ingested telco_churn into raw_data\telco_churn\telco_churn_20250824_175027.csv with 7043 rows.
+2025-08-24 17:50:28,143 - INFO - API ingestion successful. File saved: raw_data\api_data_20250824_175028.csv
