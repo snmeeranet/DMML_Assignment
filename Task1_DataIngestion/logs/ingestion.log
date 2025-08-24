@@ -1,8 +1,3 @@
-2025-08-24 11:59:03,473 - ERROR - FAILED - churn_modelling ingestion failed: [Errno 2] No such file or directory: '../raw_data/churn_modelling.csv'
-2025-08-24 11:59:03,474 - ERROR - FAILED - telco_churn ingestion failed: [Errno 2] No such file or directory: '../raw_data/WA_Fn-UseC_-Telco-Customer-Churn.csv'
-2025-08-24 12:12:15,949 - ERROR - FAILED - churn_modelling ingestion failed: [Errno 2] No such file or directory: 'D:\\BITS_SEM2\\DMML_Assignment\\CustomerTransactionData\\churn_modelling.csv'
-2025-08-24 12:12:15,949 - ERROR - FAILED - telco_churn ingestion failed: [Errno 13] Permission denied: 'D:\\BITS_SEM2\\DMML_Assignment\\Task1_DataIngestion\\raw_data\\churn_modelling'
-2025-08-24 12:12:17,181 - INFO - API ingestion successful. File saved: raw_data\api_data_20250824_121217.csv
 2025-08-24 12:17:54,627 - INFO - SUCCESS - Ingested churn_modelling into raw_data\churn_modelling\churn_modelling_20250824_121754.csv with 1409 rows.
 2025-08-24 12:17:54,754 - INFO - SUCCESS - Ingested telco_churn into raw_data\telco_churn\telco_churn_20250824_121754.csv with 7043 rows.
 2025-08-24 12:17:57,674 - INFO - API ingestion successful. File saved: raw_data\api_data_20250824_121757.csv
@@ -36,3 +31,6 @@
 2025-08-24 17:50:27,209 - INFO - SUCCESS - Ingested churn_modelling into raw_data\churn_modelling\churn_modelling_20250824_175027.csv with 1409 rows.
 2025-08-24 17:50:27,327 - INFO - SUCCESS - Ingested telco_churn into raw_data\telco_churn\telco_churn_20250824_175027.csv with 7043 rows.
 2025-08-24 17:50:28,143 - INFO - API ingestion successful. File saved: raw_data\api_data_20250824_175028.csv
+2025-08-24 21:32:38,930 - INFO - SUCCESS - Ingested churn_modelling into raw_data\churn_modelling\churn_modelling_20250824_213238.csv with 1409 rows.
+2025-08-24 21:32:39,034 - INFO - SUCCESS - Ingested telco_churn into raw_data\telco_churn\telco_churn_20250824_213239.csv with 7043 rows.
+2025-08-24 21:32:39,706 - INFO - API ingestion successful. File saved: raw_data\api_data_20250824_213239.csv
