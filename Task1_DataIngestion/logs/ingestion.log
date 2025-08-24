@@ -1,0 +1,2 @@
+2025-08-24 11:59:03,473 - ERROR - FAILED - churn_modelling ingestion failed: [Errno 2] No such file or directory: '../raw_data/churn_modelling.csv'
+2025-08-24 11:59:03,474 - ERROR - FAILED - telco_churn ingestion failed: [Errno 2] No such file or directory: '../raw_data/WA_Fn-UseC_-Telco-Customer-Churn.csv'
