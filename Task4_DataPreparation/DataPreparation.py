@@ -12,6 +12,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, LabelEncoder
 import os
+import matplotlib.pyplot as plt
+import os
+from datetime import datetime
+
 
 sns.set_theme(style="whitegrid")
 plt.rcParams["figure.figsize"] = (10,6)
@@ -86,6 +90,28 @@ def preprocess_dataset(df: pd.DataFrame, dataset_name: str):
     df_prepared = pd.concat([X, y], axis=1)
     return df_prepared
 
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+# --- Generate basic EDA ---
+def generate_eda(df, file_prefix):
+    os.makedirs(os.path.join(PROCESSED_DIR, "visualizations"), exist_ok=True)
+    
+    # Histograms
+    df.hist(bins=15, figsize=(12, 8))
+    plt.tight_layout()
+    hist_path = os.path.join(PROCESSED_DIR, "visualizations", f"{file_prefix}_hist.png")
+    plt.savefig(hist_path)
+    plt.close()
+    
+    # Boxplots
+    plt.figure(figsize=(12,6))
+    numeric_cols = df.select_dtypes(include=[np.number]).columns
+    sns.boxplot(data=df[numeric_cols])
+    box_path = os.path.join(PROCESSED_DIR, "visualizations", f"{file_prefix}_boxplot.png")
+    plt.savefig(box_path)
+    plt.close()
+    
+    print(f"EDA visualizations saved → {hist_path}, {box_path}")
+
 
 # In[7]:
 
@@ -112,3 +138,8 @@ df_hf_prep = preprocess_dataset(df_hf_clean, "HuggingFace")
 df_kaggle_prep.to_csv("processed_data/clean_kaggle.csv", index=False)
 df_hf_prep.to_csv("processed_data/clean_hf.csv", index=False)
 
+df_kaggle = pd.read_csv(r"processed_data/clean_kaggle.csv")
+generate_eda(df_kaggle, f"csv_{timestamp}")
+
+df_hf = pd.read_csv(r"processed_data/clean_hf.csv")
+generate_eda(df_hf, f"csv_{timestamp}")

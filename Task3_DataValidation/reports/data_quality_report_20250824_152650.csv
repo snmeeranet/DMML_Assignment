@@ -1,0 +1,18 @@
+file,rows,columns,issues,resolutions
+api_data_20250824_141606.csv,10,8,No issues,No resolutions
+api_data_20250824_141606_cleaned.csv,10,8,No issues,No resolutions
+api_data_20250824_141606_cleaned_cleaned.csv,10,8,No issues,No resolutions
+api_data_20250824_141606_cleaned_cleaned_cleaned.csv,10,8,No issues,No resolutions
+api_data_20250824_141606_cleaned_cleaned_cleaned_cleaned.csv,10,8,No issues,No resolutions
+churn_modelling.csv,1409,52,1035 missing values in 'Churn Category'; 1035 missing values in 'Churn Reason'; 308 missing values in 'Internet Type'; 762 missing values in 'Offer',Filled missing 'Churn Category' with 'UNKNOWN'; Filled missing 'Churn Reason' with 'UNKNOWN'; Filled missing 'Internet Type' with 'UNKNOWN'; Filled missing 'Offer' with 'UNKNOWN'
+churn_modelling_cleaned.csv,1409,52,No issues,No resolutions
+churn_modelling_cleaned_cleaned.csv,1409,52,No issues,No resolutions
+churn_modelling_cleaned_cleaned_cleaned.csv,1409,52,No issues,No resolutions
+churn_modelling_cleaned_cleaned_cleaned_cleaned.csv,1409,52,No issues,No resolutions
+churn_modelling_cleaned_cleaned_cleaned_cleaned_cleaned.csv,1409,52,No issues,No resolutions
+WA_Fn-UseC_-Telco-Customer-Churn.csv,7043,21,No issues,No resolutions
+WA_Fn-UseC_-Telco-Customer-Churn_cleaned.csv,7043,21,No issues,No resolutions
+WA_Fn-UseC_-Telco-Customer-Churn_cleaned_cleaned.csv,7043,21,No issues,No resolutions
+WA_Fn-UseC_-Telco-Customer-Churn_cleaned_cleaned_cleaned.csv,7043,21,No issues,No resolutions
+WA_Fn-UseC_-Telco-Customer-Churn_cleaned_cleaned_cleaned_cleaned.csv,7043,21,No issues,No resolutions
+WA_Fn-UseC_-Telco-Customer-Churn_cleaned_cleaned_cleaned_cleaned_cleaned.csv,7043,21,No issues,No resolutions
